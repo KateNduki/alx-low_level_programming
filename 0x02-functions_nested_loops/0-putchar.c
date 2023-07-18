@@ -1,29 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - Determines if a number is positive, negative or zero.
- *
- * Return: Always 0 (Success)
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
+
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
-	else
-	{
-		printf("%d is negative\n", n);
-	}
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
